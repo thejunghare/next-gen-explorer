@@ -21,3 +21,12 @@ A modern file manager built with Rust, React, and Go. It aims to exceed speed fo
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Go](https://golang.org/dl/)
 - [Node.js](https://nodejs.org/en/)
+
+## Contributing
+We welcome contributions from the community. To get started, please read our Contributing Guidelines.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+Contact
+
+For questions, suggestions, or feedback, feel free to open an issue or contact us at prasadjunghare2@gmail.com.
