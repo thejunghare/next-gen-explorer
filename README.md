@@ -1,9 +1,12 @@
 # Next gen explorer
 
 ## Overview
-A modern file manager built with Rust, React, and Go. It aims to exceed speed for traditioanl explorer while providing a much-improved appearance and additional features.
+
+A modern file manager built with Rust & Vite. It aims to exceed speed for traditioanl explorer while providing a
+much-improved appearance and additional features.
 
 ## Features
+
 - **Performance:** Fast and efficient file operations
 - **UI/UX:** Modern and intuitive interface
 - **Tabbed Browsing:** Manage multiple directories in tabs
@@ -18,14 +21,17 @@ A modern file manager built with Rust, React, and Go. It aims to exceed speed fo
 ## Getting Started
 
 ### Prerequisites
+
 - [Rust](https://www.rust-lang.org/tools/install)
-- [Go](https://golang.org/dl/)
-- [Node.js](https://nodejs.org/en/)
+- [Tauri](https://tauri.app/)
+- [Vite](https://vitejs.dev/guide/)
 
 ## Contributing
+
 We welcome contributions from the community. To get started, please read our Contributing Guidelines.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
 
