@@ -9,7 +9,7 @@ pub fn fetch_files(path: String) -> Result<Vec<String>, String> {
                 .map(|entry| entry.file_name().into_string().unwrap())
                 .collect();
             Ok(files)
-        },
+        }
         Err(err) => Err(err.to_string()),
     }
 }

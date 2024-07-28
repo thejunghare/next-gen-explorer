@@ -1,38 +1,38 @@
-# Next gen explorer
+# create-svelte
 
-## Overview
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-A modern file manager built with Rust & Vite. It aims to exceed speed for traditioanl explorer while providing a
-much-improved appearance and additional features.
+## Creating a project
 
-## Features
+If you're seeing this, you've probably already done this step. Congrats!
 
-- **Performance:** Fast and efficient file operations
-- **UI/UX:** Modern and intuitive interface
-- **Tabbed Browsing:** Manage multiple directories in tabs
-- **Dual-pane View:** View and manage files side-by-side
-- **Advanced Search:** Quickly find files and folders
-- **Customization:** Support for themes and extensions
-- **Cloud Integration:** Access and manage cloud storage
-- **Bulk Operations:** Rename, move, copy, and delete multiple files at once
-- **File Previews:** Preview files without opening them
-- **Plugin Support:** Extend functionality with plugins
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-## Getting Started
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-### Prerequisites
+## Developing
 
-- [Rust](https://www.rust-lang.org/tools/install)
-- [Tauri](https://tauri.app/)
-- [Vite](https://vitejs.dev/guide/)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Contributing
+```bash
+npm run dev
 
-We welcome contributions from the community. To get started, please read our Contributing Guidelines.
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## License
+## Building
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
+To create a production version of your app:
 
-For questions, suggestions, or feedback, feel free to open an issue or contact us at prasadjunghare2@gmail.com.
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
